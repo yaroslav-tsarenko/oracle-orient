@@ -1,0 +1,49 @@
+.empty-proposition-icon {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.sustainability-in-check {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.proposition-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+.we-love-nurturing {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  color: #1c1c1c;
+}
+.proposition-cards {
+  width: 366px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 24px;
+  color: #273524;
+  font-family: Almarai;
+}
+@media screen and (max-width: 450px) {
+  .sustainability-in-check {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}

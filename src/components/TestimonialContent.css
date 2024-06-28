@@ -1,0 +1,116 @@
+.outstanding-service-verizon {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 120%;
+  font-weight: 700;
+}
+.customer-images-icon {
+  height: 96px;
+  width: 96px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.alma-rai,
+.customer {
+  position: relative;
+  display: inline-block;
+}
+.alma-rai {
+  margin: 0;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 700;
+  font-family: inherit;
+  min-width: 99px;
+}
+.customer {
+  font-size: 16px;
+  line-height: 22px;
+  color: #f0f1ea;
+  min-width: 69px;
+}
+.customer-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+}
+.rating-child,
+.rating-child1,
+.rating-inner,
+.rating-item,
+.star-icon {
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 0.5px;
+  min-height: 25px;
+}
+.customer-info,
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customer-info {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 224px;
+  max-width: 100%;
+  gap: 20px;
+}
+.customer-details,
+.testimonial-content {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.customer-details {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+  font-size: 24px;
+}
+.testimonial-content {
+  width: 544px;
+  border-radius: 20px;
+  background-color: #f0f1ea;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 64px;
+  text-align: left;
+  font-size: 18px;
+  color: #273524;
+  font-family: Almarai;
+}
+@media screen and (max-width: 900px) {
+  .customer-details {
+    gap: 24px;
+  }
+  .testimonial-content {
+    gap: 32px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .alma-rai {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .customer-info {
+    flex-wrap: wrap;
+  }
+  .testimonial-content {
+    gap: 16px;
+  }
+}

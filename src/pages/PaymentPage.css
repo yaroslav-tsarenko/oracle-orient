@@ -1,0 +1,164 @@
+.frame-child {
+  align-self: stretch;
+  height: 451px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.powered-by {
+  position: relative;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 97px;
+}
+.payment-icons {
+  height: 24px;
+  width: 34px;
+  position: relative;
+  border-radius: 4px;
+  object-fit: cover;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: Almarai;
+}
+.footer-note-child {
+  height: 21px;
+  width: 1px;
+  position: relative;
+}
+.legal,
+.refunds {
+  position: relative;
+  letter-spacing: 0.15em;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 43px;
+  flex-shrink: 0;
+}
+.refunds {
+  min-width: 61px;
+}
+.footer-note {
+  width: 337px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: 20px;
+}
+.frame-parent,
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-parent {
+  align-self: stretch;
+  gap: 99px;
+}
+.page {
+  width: 437px;
+  padding: 215px 0 0;
+  box-sizing: border-box;
+  min-width: 437px;
+}
+.frame-item {
+  height: 1004px;
+  width: 960px;
+  position: relative;
+  box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.05);
+  background-color: #f5f5f5;
+  display: none;
+  max-width: 100%;
+}
+.paymentpage,
+.rectangle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.rectangle-parent {
+  width: 960px;
+  box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.05);
+  background-color: #f5f5f5;
+  justify-content: flex-start;
+  padding: 68px 38px;
+  min-width: 960px;
+  max-width: 100%;
+}
+.paymentpage {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 0 0 0 252px;
+  line-height: normal;
+  letter-spacing: normal;
+  gap: 20px;
+  text-align: left;
+  font-size: 12px;
+  color: #000;
+  font-family: "Apercu Pro";
+}
+@media screen and (max-width: 1650px) {
+  .page,
+  .rectangle-parent {
+    flex: 1;
+  }
+  .paymentpage {
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .rectangle-parent {
+    padding-top: 44px;
+    padding-bottom: 44px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .page {
+    padding-top: 140px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .rectangle-parent {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer-note {
+    flex-wrap: wrap;
+  }
+  .frame-parent {
+    gap: 49px;
+  }
+  .page {
+    padding-top: 91px;
+    box-sizing: border-box;
+  }
+}

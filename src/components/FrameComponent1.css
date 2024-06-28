@@ -1,0 +1,233 @@
+.popular-products {
+  margin: 0;
+  width: 1680px;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.find1,
+.form-label3 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 31px;
+}
+.form-label3 {
+  min-width: 50px;
+}
+.icon10 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.form-field4,
+.sort-21 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field4 {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #f0f1ea;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  gap: 20px;
+  color: #273524;
+}
+.sort-21 {
+  width: 210px;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.form-label4,
+.sort-by1 {
+  position: relative;
+  line-height: 22px;
+  display: inline-block;
+  min-width: 49px;
+}
+.form-label4 {
+  min-width: 44px;
+}
+.icon11 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.form-field5,
+.sort-11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field5 {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #f0f1ea;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  gap: 20px;
+  color: #273524;
+}
+.sort-11 {
+  width: 222px;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.explore-our-gift2,
+.form-label5 {
+  position: relative;
+  line-height: 135%;
+}
+.form-label5 {
+  line-height: 22px;
+  display: inline-block;
+  min-width: 117px;
+}
+.icon12 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.filter-options1,
+.form-field6,
+.sort-31 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.form-field6 {
+  flex: 1;
+  border-radius: 20px;
+  background-color: #f0f1ea;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 9px 11px;
+  box-sizing: border-box;
+  min-width: 141px;
+  white-space: nowrap;
+  gap: 20px;
+  color: #273524;
+}
+.filter-options1,
+.sort-31 {
+  max-width: 100%;
+}
+.sort-31 {
+  flex: 1;
+  justify-content: flex-start;
+  gap: 22px;
+  min-width: 261px;
+}
+.filter-options1 {
+  width: 865px;
+  justify-content: center;
+  gap: 16px;
+}
+.clear-filter-child {
+  height: 8.8px;
+  width: 8.8px;
+  position: relative;
+}
+.clear-all-filters1 {
+  position: relative;
+  line-height: 135%;
+  display: inline-block;
+  min-width: 105px;
+}
+.clear-filter,
+.product-filters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: #a7a7a7;
+}
+.product-filters {
+  width: 1680px;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+  font-size: 16px;
+  color: #1d1d1d;
+}
+.popular-products-parent,
+.product-grid {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.product-grid {
+  width: 1680px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 40px 22.7px;
+  min-height: 712px;
+  font-size: 18px;
+  color: #909b92;
+}
+.popular-products-parent {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px;
+  box-sizing: border-box;
+  gap: 40px;
+  text-align: left;
+  font-size: 48px;
+  color: #273524;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1350px) {
+  .product-filters {
+    flex-wrap: wrap;
+  }
+  .popular-products-parent {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .popular-products {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .filter-options1 {
+    flex-wrap: wrap;
+  }
+  .popular-products-parent {
+    gap: 20px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .popular-products {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .sort-31 {
+    flex-wrap: wrap;
+  }
+}

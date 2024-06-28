@@ -1,0 +1,283 @@
+.start-gifting {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.gift-cards {
+  width: 828px;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 188px 20px 189px;
+  box-sizing: border-box;
+  background-image: url(/public/gift-cards@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  max-width: 100%;
+  font-size: 80px;
+}
+.giftafriend {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.shop-now {
+  margin: 0 !important;
+  position: absolute;
+  top: 489px;
+  left: 0;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 157px 26px 158px;
+  background-image: url(/public/shop-now@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.giftacard {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 53px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.gift-card,
+.gift-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.gift-card {
+  margin: 0 !important;
+  position: absolute;
+  top: 489px;
+  left: 426px;
+  border-radius: 20px;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 157px 47px 158px;
+  background-image: url(/public/gift-card@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.gift-options {
+  height: 857px;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  position: relative;
+  gap: 24px 22px;
+  min-width: 538px;
+  max-width: 100%;
+}
+.learn-more4 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #273524;
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+}
+.arrow-right-icon3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.contact-us {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #eee;
+  flex: 1;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  min-width: 250px;
+  white-space: nowrap;
+  max-width: 100%;
+  gap: 20px;
+}
+.contact-us:hover {
+  background-color: #d4d4d4;
+}
+.contact-us2 {
+  width: 101px;
+  border: 0;
+  outline: 0;
+  font-family: Almarai;
+  font-size: 16px;
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  line-height: 135%;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.arrow-right-icon4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.contact-us-parent,
+.contact-us1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.contact-us1 {
+  flex: 1;
+  border-radius: 20px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 24px;
+  min-width: 250px;
+  gap: 20px;
+}
+.contact-us-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+}
+.shop-now1 {
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 43.5px);
+  left: calc(50% - 223px);
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.gift-options-parent,
+.gift-options1 {
+  overflow: hidden;
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gift-options1 {
+  flex: 0.942;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 385px 24px 24px;
+  position: relative;
+  gap: 10px;
+  background-image: url(/public/gift-options@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 538px;
+  min-height: 857px;
+  font-size: 80px;
+}
+.gift-options-parent {
+  align-self: stretch;
+  background-color: #fff;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 80px 120px;
+  gap: 24px;
+  text-align: left;
+  font-size: 48px;
+  color: #fff;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1800px) {
+  .gift-options,
+  .gift-options1 {
+    flex: 1;
+  }
+  .gift-options-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .gift-options-parent {
+    padding: 52px 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .start-gifting {
+    font-size: 40px;
+    line-height: 53px;
+  }
+  .giftacard,
+  .giftafriend {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .gift-options {
+    min-width: 100%;
+  }
+  .contact-us-parent {
+    flex-wrap: wrap;
+  }
+  .shop-now1 {
+    font-size: 40px;
+    line-height: 53px;
+  }
+  .gift-options1 {
+    min-width: 100%;
+  }
+  .gift-options-parent {
+    padding: 34px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .start-gifting {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .giftacard,
+  .giftafriend {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .shop-now1 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .gift-options1 {
+    padding-top: 250px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

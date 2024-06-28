@@ -1,0 +1,250 @@
+.explore-popular-categories,
+.travel-gift-cards {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.explore-popular-categories {
+  line-height: 53px;
+  display: inline-block;
+  max-width: 100%;
+}
+.travel-gift-cards {
+  align-self: stretch;
+  line-height: 120%;
+}
+.explore-the-world {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 135%;
+  color: #fff;
+}
+.category-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.learn-more2 {
+  width: 103px;
+  border: 0;
+  outline: 0;
+  font-family: Almarai;
+  font-size: 16px;
+  background-color: transparent;
+  height: 22px;
+  position: relative;
+  line-height: 135%;
+  color: #273524;
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+}
+.arrow-right-icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.learn-more1 {
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  gap: 20px;
+}
+.arrow-circle-right-icon1 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin: 0 !important;
+  top: 24px;
+  left: 470px;
+}
+.category-items1 {
+  flex: 1;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 48px;
+  background-image: url(/public/category-items@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 354px;
+  min-height: 763px;
+  max-width: 100%;
+}
+.food-gift-cards {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.indulge-in-culinary {
+  align-self: stretch;
+  height: 154px;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.08px;
+  line-height: 135%;
+  color: #fff;
+  display: inline-block;
+}
+.food-gift-cards-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.learn-more3 {
+  position: relative;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Almarai;
+  color: #273524;
+  text-align: left;
+  display: inline-block;
+  min-width: 103px;
+}
+.arrow-right-icon2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.learn-more-group {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 24px;
+  background-color: #eee;
+  align-self: stretch;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  gap: 20px;
+}
+.learn-more-group:hover {
+  background-color: #d4d4d4;
+}
+.arrow-circle-right-icon2 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin: 0 !important;
+  top: 24px;
+  left: 186px;
+}
+.category-items2 {
+  height: 763px;
+  width: 260px;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 24px;
+  box-sizing: border-box;
+  position: relative;
+  gap: 28px;
+  background-image: url(/public/category-items1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.category-cards,
+.explore-popular-categories-parent {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+}
+.category-cards {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 32px;
+  color: #f0f1ea;
+}
+.explore-popular-categories-parent {
+  background-color: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 80px 120px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 48px;
+  color: #273524;
+  font-family: Almarai;
+}
+@media screen and (max-width: 1350px) {
+  .explore-popular-categories-parent {
+    padding: 52px 60px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .explore-popular-categories {
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .travel-gift-cards {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .category-items1 {
+    gap: 24px;
+    min-width: 100%;
+  }
+  .food-gift-cards {
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .explore-popular-categories-parent {
+    padding: 34px 30px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .explore-popular-categories {
+    font-size: 29px;
+    line-height: 32px;
+  }
+  .food-gift-cards,
+  .travel-gift-cards {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .category-items2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}
